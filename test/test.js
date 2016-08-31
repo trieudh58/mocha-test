@@ -3,8 +3,8 @@ var mainApp = require('../app');
 
 describe('Main app', function () {
     describe('#numberOfEvens', function () {
-        it('should return message "The input is not an array." when the input param is not an array', function () {
-            assert.equal("The input is not an array.", mainApp.numberOfEvens(1));
+        it('should return 0 when the input param is not an array', function () {
+            assert.equal(0, mainApp.numberOfEvens(1));
         });
     });
 });
