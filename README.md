@@ -9,4 +9,4 @@ Simple Node js project using Mocha as unit test framework.
 ## Install and run
 - Open terminal/cmd/powershell at project root
 - Run `npn install` to set up dependencies
-- Run npm test to execute tests and see test results
+- Run `npm test` to execute tests and see test results

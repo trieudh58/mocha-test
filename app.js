@@ -5,7 +5,7 @@ module.exports = {
     * Description: Count number of even integers in input array
     * Return: number of even integers in input array
     * */
-    numberOfEvent: function (arr) {
+    numberOfEvens: function (arr) {
         if (!Array.isArray(arr)) {
             return "The input is not an array.";
         }
